@@ -31,6 +31,15 @@ Enter follow command:
 
 Open terminal and enter follow command:
 
-![#f03c15] ssh -N -f -L localhost:8886:localhost:port your_account@erdos.dsm.fordham.edu `#f03c15`
+```diff
++ ssh -N -f -L localhost:8886:localhost:`port` `your_account`@erdos.dsm.fordham.edu
 
+```
 with `port`: the port number you see when opening the notebook app on Erdos on part `2`
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text='ssh -N -f -L localhost:8886:localhost:port your_account@erdos.dsm.fordham.edu')
+
+```diff
++ this will be highlighted in - green
+- this will be highlighted in red
+```
