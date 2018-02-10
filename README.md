@@ -3,11 +3,20 @@
 ### I) How to connect to Erdos? 
 
 #### 1. On your computer
+
+For Mac OS X:
+
 Open Terminal and enter:
 
 ##### `ssh your_account@erdos.dsm.fordham.edu` 
 
 Enter password to connect to the Erdos server.
+
+For Windows:
+
+You can use any SSH client. For our class, we will use MobaXterm Home Edition
+
+https://mobaxterm.mobatek.net/download.html
 
 #### 2. On Erdos
 
