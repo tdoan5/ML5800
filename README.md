@@ -1,7 +1,7 @@
 ## ML5800
-```diff
-### - How to connect to Erdos?
-```
+
+### I) How to connect to Erdos? 
+
 #### 1. On your computer
 Open Terminal and enter:
 
@@ -62,5 +62,5 @@ On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 On your computer: `ctrl + C` to clost the SSH tunnerl.
 
 
-## How to run graphical programs remotely from the Erdos server?
+## II) How to run graphical programs remotely from the Erdos server?
 
