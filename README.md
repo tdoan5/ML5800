@@ -68,8 +68,23 @@ Go back to Erdos, copy the `token` and paste into your browser on your local com
 
 On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 
-On your computer: `ctrl + C` to clost the SSH tunnerl.
+On your computer: `ctrl + C` to clost the SSH tunnel.
 
 
 ## II) How to run graphical programs remotely from the Erdos server?
 
+#### Mac OS X
+
+1. Install XQuartz on your Mac, which is the official X server software for Mac
+
+2. Run `Applications > Utilities > XQuartz.app`
+
+3. Right click on the XQuartz icon in the dock and select `Applications > Terminal`.  This should bring up a new xterm terminal windows.
+
+4. In this xterm windows, `ssh` into the linux system to log into Erdos:
+
+##### `ssh -Y username@hulk.soic.indiana.edu`
+
+5. Once you are logged into the linux system, you can just run:
+
+##### `jupyter-notebook`
