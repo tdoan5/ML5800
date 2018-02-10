@@ -1,6 +1,6 @@
 ## ML5800
 
-### How to connect to Erdos
+### How to connect to Erdos?
 
 #### 1. On your computer
 Open Terminal and enter:
@@ -55,4 +55,12 @@ Go back to Erdos, copy the `token` and paste into your browser on your local com
 
 !Voila.
 
+#### 5. Close Jupyter Notebook app on Erdo and the SSH tunnel from your computer
+
+On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
+
+On your computer: `ctrl + C` to clost the SSH tunnerl.
+
+
+## How to run graphical programs remotely from the Erdos server?
 
