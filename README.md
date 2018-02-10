@@ -1,7 +1,7 @@
 ## ML5800
-
-### How to connect to Erdos?
-
+```diff
+### - How to connect to Erdos?
+```
 #### 1. On your computer
 Open Terminal and enter:
 
