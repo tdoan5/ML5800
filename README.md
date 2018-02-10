@@ -41,7 +41,7 @@ with
 
 for example: if my jupyter notebook app opens on Erdos with port `8891`, I will enter on my local computer:
 
-###### `ssh -N -f -L localhost:8886:localhost:8891 doan@erdos.dsm.fordham.edu` 
+###### `ssh -N -f -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
