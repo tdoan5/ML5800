@@ -37,5 +37,10 @@ with
 
 `port`        : the port number you see when opening the notebook app on Erdos on part `2`
 
-`your_account`: your username 
+`your_account`: your Erdos username 
+
+for example: if my jupyter notebook app opens on Erdos with port `8891`, I will enter:
+
+#### `ssh -N -f -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
+
 
