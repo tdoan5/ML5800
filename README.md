@@ -43,3 +43,6 @@ with `port`: the port number you see when opening the notebook app on Erdos on p
 + this will be highlighted in - green
 - this will be highlighted in red
 ```
+### - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+ssh)
+##- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+hello)
+#- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+part)
