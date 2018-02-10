@@ -4,7 +4,7 @@
 
 #### 1. On your computer
 
-For Mac OS X:
+For `Mac OS X`:
 
 Open Terminal and enter:
 
@@ -12,7 +12,7 @@ Open Terminal and enter:
 
 Enter password to connect to the Erdos server.
 
-For Windows:
+For `Windows`:
 
 You can use any SSH client. For our class, we will use MobaXterm Home Edition
 
