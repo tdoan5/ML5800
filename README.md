@@ -83,7 +83,7 @@ On your computer: `ctrl + C` to clost the SSH tunnel.
 
 4. In this xterm windows, `ssh` into the linux system to log into Erdos:
 
-##### `ssh -Y username@hulk.soic.indiana.edu`
+##### `ssh -Y username@erdos.dsm.fordham.edu`
 
 5. Once you are logged into the linux system, you can just run:
 
