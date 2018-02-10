@@ -31,9 +31,7 @@ Enter follow command:
 
 Open terminal on your computer and enter follow command:
 
-![screenshot](https://github.com/tdoan5/ML5800/blob/master/ssh_jpn.png)
-
-<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_jpn.png" width="700" height="35">
+<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_jpn.png" width="800" height="40">
 
 with    
 
