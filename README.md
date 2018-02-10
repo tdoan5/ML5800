@@ -27,3 +27,10 @@ If the `port 8889 is already in use`, the notebook app will automatically try `a
 
 ![screenshot](https://github.com/tdoan5/ML5800/blob/master/port8891_snapshot.png)
 
+### 3. On your computer:
+
+Open terminal and enter follow command:
+
+`ssh -N -f -L localhost:8886:localhost:port your_account@erdos.dsm.fordham.edu`
+
+with `port`: the port number you see when opening the notebook app on Erdos on part `2`
