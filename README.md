@@ -33,5 +33,9 @@ Open terminal and enter follow command:
 
 ![screenshot](https://github.com/tdoan5/ML5800/blob/master/ssh_jpn.png)
 
-with `port`: the port number you see when opening the notebook app on Erdos on part `2`
+with    
+
+`port`        : the port number you see when opening the notebook app on Erdos on part `2`
+
+`your_account`: your username 
 
