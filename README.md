@@ -73,7 +73,8 @@ On your computer: `ctrl + C` to clost the SSH tunnel.
 
 ## II) How to run graphical programs remotely from the Erdos server?
 
-#### Mac OS X
+### Mac OS X
+__
 
 1. Install XQuartz on your Mac, which is the official X server software for Mac
 
@@ -83,8 +84,31 @@ On your computer: `ctrl + C` to clost the SSH tunnel.
 
 4. In this xterm windows, `ssh` into the linux system to log into Erdos:
 
-##### `ssh -Y username@erdos.dsm.fordham.edu`
+#####         `ssh -Y username@erdos.dsm.fordham.edu`
 
 5. Once you are logged into the linux system, you can just run:
 
-##### `jupyter-notebook`
+#####         `jupyter-notebook`
+
+
+### Windows
+
+1. Install MobaXterm (or Putty) on your Windows
+
+2. Run MobaXterm
+
+3. Create a new session 
+
+4. Run MobaXterm and set things up as follows:
+
+- Enter the server name in Host Name
+- Make sure the Connection type is set to SSH
+- Enable X11 forwarding (Connection > SSH > X11)
+
+5. Once you are logged into the linux system, you can run:
+
+#####         `jupyter-notebook`
+
+
+
+
