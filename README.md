@@ -29,7 +29,7 @@ Enter follow command:
 
 ### 3. On your computer:
 
-Open terminal and enter follow command:
+Open terminal on your computer and enter follow command:
 
 ![screenshot](https://github.com/tdoan5/ML5800/blob/master/ssh_jpn.png)
 
@@ -39,7 +39,7 @@ with
 
 `your_account`: your Erdos username 
 
-for example: if my jupyter notebook app opens on Erdos with port `8891`, I will enter:
+for example: if my jupyter notebook app opens on Erdos with port `8891`, I will enter on my local computer:
 
 #### `ssh -N -f -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
 
