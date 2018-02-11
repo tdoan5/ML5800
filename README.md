@@ -50,11 +50,11 @@ with
 
 for example: if my jupyter notebook app opens on Erdos with port `8891`, I will enter on my local computer:
 
-###### `ssh -N -f -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
+###### `ssh -N -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
 
 Option `-N` tells SSH that no remote commands will be executed, and is useful for port forwarding. 
 
-Option `-L` lists the port forwarding configuration (remote port 8889 to local port 8886).
+Option `-L` lists the port forwarding configuration (remote port 8891 to local port 8886).
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
