@@ -1,6 +1,6 @@
 ## ML5800
 
-### I) Connection Using Secure Shell
+### I) Connection Using Secure Shell (recommended)
 
 #### 1. On your computer
 
@@ -147,7 +147,4 @@ https://mobaxterm.mobatek.net/download.html
 4. Once you are logged into the linux system, you can run:
 
 ######         `jupyter-notebook`
-
-
-
 
