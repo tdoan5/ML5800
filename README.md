@@ -8,7 +8,7 @@
 
 Open Terminal and enter:
 
-##### `ssh your_account@erdos.dsm.fordham.edu` 
+###### `ssh your_account@erdos.dsm.fordham.edu` 
 
 Enter password to connect to the Erdos server.
 
@@ -38,7 +38,7 @@ https://mobaxterm.mobatek.net/download.html
 
 Enter follow command:
 
-##### `jupyter-notebook --no-browser --port=8889`
+###### `jupyter-notebook --no-browser --port=8889`
 
 
 * The notebook app will open with an `available port` (port 8889 is available in the below snapshot), and give you a `token` to connect to server from your browser on your local computer:
@@ -109,7 +109,7 @@ Install X2GO client
 
 https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.11/
 
-** Use X2Go client to remote desktop connect to Erdos **
+**Use X2Go client to remote desktop connect to Erdos**
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/x2go.png" width="590" height="500">
 
@@ -127,28 +127,22 @@ https://www.xquartz.org/
 
 3. In your Terminal, `ssh` into the linux system to log into Erdos:
 
-#####         `ssh -Y username@erdos.dsm.fordham.edu`
+######         `ssh -Y username@erdos.dsm.fordham.edu`
 
 4. Once you are logged into the linux system, you can just run:
 
-#####         `jupyter-notebook`
+######         `jupyter-notebook`
 
 
 ### Windows
 
-1. Install MobaXterm (or Putty) on your Windows
+1. Install MobaXterm on your Windows
 
 2. Run MobaXterm
 
-3. Create a new session 
+3. Create a new session with X11 forwarding enable (see snapshot in the first method) 
 
-4. Run MobaXterm and set things up as follows:
-
-- Enter the server name in Host Name
-- Make sure the Connection type is set to SSH
-- Enable X11 forwarding (Connection > SSH > X11)
-
-5. Once you are logged into the linux system, you can run:
+4. Once you are logged into the linux system, you can run:
 
 #####         `jupyter-notebook`
 
