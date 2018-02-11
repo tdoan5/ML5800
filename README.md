@@ -111,7 +111,7 @@ Install X2GO client
 
 https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.11/
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/X2Go.png" width="790" height="690">
+<img src="https://github.com/tdoan5/ML5800/blob/master/x2go.png" width="790" height="690">
 
 ## III) Run graphical programs remotely
 
