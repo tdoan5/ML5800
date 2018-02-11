@@ -76,7 +76,7 @@ Option `-L` lists the port forwarding configuration (remote port 8891 to local p
 
 Next step, open your browser in your local computer and enter:
 
-##### `localhost:8886`
+###### `localhost:8886`
 
 It will ask you to put the `token` to access remotely to the notebook app on Erdos.
 
@@ -146,7 +146,7 @@ https://mobaxterm.mobatek.net/download.html
 
 4. Once you are logged into the linux system, you can run:
 
-#####         `jupyter-notebook`
+######         `jupyter-notebook`
 
 
 
