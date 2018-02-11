@@ -40,7 +40,7 @@ Enter follow command:
 
 Open terminal on your computer and enter follow command:
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_jpn.png" width="800" height="40">
+<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_f_jpn.png" width="700" height="30">
 
 with    
 
