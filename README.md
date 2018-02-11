@@ -1,10 +1,10 @@
 ## ML5800
 
-### I) How to connect to Erdos? 
+### I) Connection Using Secure Shell
 
 #### 1. On your computer
 
-For `Mac OS X`:
+**`Mac OS X`**:
 
 Open Terminal and enter:
 
@@ -12,7 +12,7 @@ Open Terminal and enter:
 
 Enter password to connect to the Erdos server.
 
-For `Windows`:
+**`Windows`**:
 
 You can use any SSH client. For our class, we will use MobaXterm Home Edition
 
@@ -84,7 +84,7 @@ Go back to Erdos, copy the `token` and paste into your browser on your local com
 
 !Voila.
 
-#### 5. Close Jupyter Notebook app on Erdo and the SSH tunnel from your computer
+#### 5. Close Jupyter Notebook app on Erdos and the SSH tunnel from your computer
 
 On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 
@@ -111,7 +111,9 @@ Install X2GO client
 
 https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.11/
 
-## III) How to run graphical programs remotely from the Erdos server?
+<img src="https://github.com/tdoan5/ML5800/blob/master/X2Go.png" width="630" height="344">
+
+## III) Run graphical programs remotely
 
 Graphical program will not run as smooth as the method I.
 
