@@ -77,20 +77,22 @@ On your computer: `ctrl + C` to clost the SSH tunnel.
 
 ## II) How to run graphical programs remotely from the Erdos server?
 
+Graphical program will not run as smooth as the method I.
+
 ### Mac OS X
 __
 
 1. Install XQuartz on your Mac, which is the official X server software for Mac
 
+https://www.xquartz.org/
+
 2. Run `Applications > Utilities > XQuartz.app`
 
-3. Right click on the XQuartz icon in the dock and select `Applications > Terminal`.  This should bring up a new xterm terminal windows.
-
-4. In this xterm windows, `ssh` into the linux system to log into Erdos:
+3. In your Terminal, `ssh` into the linux system to log into Erdos:
 
 #####         `ssh -Y username@erdos.dsm.fordham.edu`
 
-5. Once you are logged into the linux system, you can just run:
+4. Once you are logged into the linux system, you can just run:
 
 #####         `jupyter-notebook`
 
