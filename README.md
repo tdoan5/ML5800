@@ -1,6 +1,6 @@
 ## ML5800
 
-The 1st connection method using secure shell gives the best performance when remotely access to Jupyter Notebook app on the Erdos server.
+The 1<sup>st</sup> connection method using *secure shell* gives the best performance when remotely access to Jupyter Notebook app on the Erdos server.
 
 ### I) Connection Using Secure Shell
 
