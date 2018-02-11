@@ -18,6 +18,8 @@ You can use any SSH client. For our class, we will use MobaXterm Home Edition
 
 https://mobaxterm.mobatek.net/download.html
 
+<img src="https://github.com/tdoan5/ML5800/blob/master/MobaXterm_Session.png" width="630" height="344">
+
 #### 2. On Erdos
 
 Enter follow command:
