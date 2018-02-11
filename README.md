@@ -91,7 +91,7 @@ Go back to Erdos, copy the `token` and paste into your browser on your local com
 
 On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 
-On your computer: `ctrl + C` to clost the SSH tunnel.
+On your computer: `ctrl + C` to close the SSH tunnel.
 
 
 ## II) Remote Desktop Connection
@@ -143,9 +143,13 @@ https://mobaxterm.mobatek.net/download.html
 
 2. Run MobaXterm
 
-3. Create a new session with X11 forwarding enable (see snapshot in the first method) 
+3. Create a new session with X11 forwarding enable (see snapshot in the first method)
 
-4. Once you are logged into the linux system, you can run:
+4. Enable X server, click to X server button near Exit button, it will turn Green
+
+<img src="https://github.com/tdoan5/ML5800/blob/master/xserver.png" width="630" height="344">
+
+5. Once you are logged into the linux system, you can run:
 
 ######         `jupyter-notebook`
 
