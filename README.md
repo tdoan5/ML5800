@@ -18,6 +18,20 @@ You can use any SSH client. For our class, we will use MobaXterm Home Edition
 
 https://mobaxterm.mobatek.net/download.html
 
+1. Click **Session**
+
+2. Click **SSH** in *Session settings*
+
+3. Click **Advanced SSH settings**
+
+4. Enter **Remote host**: `erdos.dsm.fordham.edu`
+
+5. **Specify username**: your erdos username
+
+6. **Port**: 22
+
+7. Hit **OK**
+
 <img src="https://github.com/tdoan5/ML5800/blob/master/MobaXterm_Session.PNG" width="630" height="344">
 
 #### 2. On Erdos
@@ -77,12 +91,31 @@ On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 On your computer: `ctrl + C` to clost the SSH tunnel.
 
 
-## II) How to run graphical programs remotely from the Erdos server?
+## II) Remote Desktop Connection
+
+Requirements:
+
+### Mac OS X
+
+1. Install XQuartz on your Mac, which is the official X server software for Mac
+
+https://www.xquartz.org/
+
+2. Install X2GO client
+
+https://code.x2go.org/releases/binary-macosx/x2goclient/releases/4.1.1.0/
+
+### Windows
+
+Install X2GO client
+
+https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.11/
+
+## III) How to run graphical programs remotely from the Erdos server?
 
 Graphical program will not run as smooth as the method I.
 
 ### Mac OS X
-__
 
 1. Install XQuartz on your Mac, which is the official X server software for Mac
 
