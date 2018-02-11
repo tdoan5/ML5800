@@ -138,6 +138,8 @@ https://www.xquartz.org/
 
 1. Install MobaXterm on your Windows
 
+https://mobaxterm.mobatek.net/download.html
+
 2. Run MobaXterm
 
 3. Create a new session with X11 forwarding enable (see snapshot in the first method) 
