@@ -1,6 +1,8 @@
 ## ML5800
 
-### I) Connection Using Secure Shell (recommended)
+The 1st connection method using secure shell gives the best performance when remotely access to Jupyter Notebook app on the Erdos server.
+
+### I) Connection Using Secure Shell
 
 #### 1. On your computer
 
@@ -11,6 +13,7 @@ Open Terminal and enter:
 ###### `ssh your_account@erdos.dsm.fordham.edu` 
 
 Enter password to connect to the Erdos server.
+
 
 **`Windows`**:
 
@@ -114,8 +117,6 @@ https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.
 <img src="https://github.com/tdoan5/ML5800/blob/master/x2go.png" width="590" height="500">
 
 ## III) Run graphical programs remotely
-
-Graphical program will not run as smooth as the method I.
 
 ### Mac OS X
 
