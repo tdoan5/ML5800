@@ -76,7 +76,7 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 Option `-L` lists the port forwarding configuration (remote port to local port).
 
 
-**for example**: if I choose `localPort` as `8880` on my computer, and the Jupyter Notebook app opens on Erdos with port `8890`, I will enter the follow command in a new terminal on my `local computer`:
+**for example**: if you pick `localPort` as `8880` on your computer, and the Jupyter Notebook app opens on Erdos with remotePort `8890`, you will enter the follow command in a new terminal on your `local computer`:
 
 ###### `ssh -N -L localhost:8880:localhost:8890 username@erdos.dsm.fordham.edu` 
 
@@ -96,7 +96,7 @@ It will ask you to put the `token` to access remotely to the notebook app on Erd
 
 **for example**
 
-If you chose `localPort` as 8880 in step 3, you enter `localhost:8880` into the address bar of the browser like below:
+If you chose `localPort` as `8880` in step 3, you enter `localhost:8880` into the address bar of the browser like below:
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/localhost_8880.png" width="600" height="220">
 
@@ -124,6 +124,14 @@ https://www.xquartz.org/
 2. Install X2GO client
 
 https://code.x2go.org/releases/binary-macosx/x2goclient/releases/4.1.1.0/
+
+When you run the apps, if you receive this message:
+
+**" ... can't be opened because it is from an unidentified developer"**
+
+than go to **Security & Privacy settings** on your computer and choose to **"Open Anyways"**
+
+Go to `System Preferences` > Select `Security & Privacy` > Click `General` tab > Choose to `Open Anyway`
 
 ### Windows
 
