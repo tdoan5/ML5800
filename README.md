@@ -106,7 +106,8 @@ Go back to `Erdos`, copy the `token` and paste into your browser on your local c
 
 !Voila.
 
-***!Note:***
+!Note:
+______
 
 When you're done, remember to close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
