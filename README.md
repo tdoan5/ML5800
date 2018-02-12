@@ -59,7 +59,7 @@ Enter follow command:
 
 #### 3. On your computer:
 
-Open a new terminal on your computer and enter the follow command:
+Open a new terminal on your local computer and enter the follow command:
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/ssh_f_jpn.png" width="700" height="30">
 
