@@ -107,7 +107,6 @@ Go back to `Erdos`, copy the `token` and paste into your browser on your local c
 !Voila.
 
 !Note:
-______
 
 When you're done, remember to close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
@@ -115,7 +114,7 @@ On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 
 On your computer: `ctrl + C` to close the SSH tunnel.
 
-
+_______
 ## II) Remote Desktop Connection
 
 ### Mac OS X
