@@ -156,6 +156,7 @@ If it asks to unlock the keyring, enter your Erdos password again.
 
 Hit `logout` when you complete your task.
 
+_______
 ## III) Run graphical programs remotely
 
 ### Mac OS X
