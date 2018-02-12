@@ -76,9 +76,9 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 Option `-L` lists the port forwarding configuration (remote port to local port).
 
 
-**for example**: if the Jupyter Notebook app opens on Erdos with port `8891`, we will enter on the `local computer`:
+**for example**: if we choose `localPort` as `8880` on our computer, and the Jupyter Notebook app opens on Erdos with port `8890`, we will enter on the `local computer`:
 
-###### `ssh -N -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
+###### `ssh -N -L localhost:8880:localhost:8890 tdoan5@erdos.dsm.fordham.edu` 
 
 
 Enter the Erdos password. After entering password, it does not show anything but the tunnel is opened successfuly, you can go to step 4. Note that if you do use any port different from 8886 (e.g. port 8880 instead of 8886) for the above `ssh` command, in step 4, you have to enter `localhost:8880` in your browswer.
