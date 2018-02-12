@@ -65,7 +65,9 @@ Open a new terminal on your local computer and enter the follow command:
 
 with    
 
-`port`        : the port number you see when opening the notebook app on Erdos.
+`localPort`: the port you choose on your `local computer` to connect to Erdos
+
+`remotePort`: the port number you see when opening the notebook app on Erdos
 
 `your_account`: your Erdos username.
 
@@ -86,15 +88,17 @@ It prompts you to enter Erdos password.
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
-Next step, open your browser in your local computer and enter:
+Next step, open your `browser` in your local computer and enter into address bar with `local post` used in part 3:
 
-###### `localhost:8886`
+###### `localhost:localPort`
 
 It will ask you to put the `token` to access remotely to the notebook app on Erdos.
 
 Go back to Erdos, copy the `token` and paste into your browser on your local computer.
 
 !Voila.
+
+**!Note:**
 
 When you're done, you can close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
