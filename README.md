@@ -82,17 +82,19 @@ Option `-L` lists the port forwarding configuration (remote port to local port).
 
 Enter the Erdos password. After entering password, it does not show anything but the tunnel is established successfuly. DO NOT close the terminal, you can go to `step 4`. 
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_tunnel.png" width="910" height="90">
+<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_tunnel.png" width="700" height="70">
 
 !Note: When you're done, you can hit `Ctrl + C` to close the tunnel.
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
-Next step, open your `browser` in your local computer and enter into address bar with `local post` used in part 3:
+Next step, open your `browser` in your local computer and enter into address bar with `localPost` you chose in part 3:
 
 ###### `localhost:localPort`
 
 It will ask you to put the `token` to access remotely to the notebook app on Erdos.
+
+<img src="https://github.com/tdoan5/ML5800/blob/master/localhost_8880.png" width="600" height="220">
 
 Go back to Erdos, copy the `token` and paste into your browser on your local computer.
 
