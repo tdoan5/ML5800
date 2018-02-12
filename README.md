@@ -16,10 +16,9 @@ Open Terminal and enter:
 
 Enter password to connect to the Erdos server.
 
-
 #### Windows:
 
-You can use any SSH client. For our class, we will use MobaXterm Home Edition (you can choose either Portable or Installer version).
+You can use any SSH client. For our class, we will use `MobaXterm Home Edition` (you can choose either `Portable` or `Installer` version).
 
 https://mobaxterm.mobatek.net/download.html
 
@@ -76,7 +75,7 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 Option `-L` lists the port forwarding configuration (remote port to local port).
 
 
-###### *for example*: 
+##### *for example*: 
 
 if you pick `localPort` as `8880` on your computer, and the Jupyter Notebook app opens on Erdos with remotePort `8890`, you will enter the follow command in a new terminal on your `local computer`:
 
@@ -86,7 +85,9 @@ Enter the Erdos password. After entering password, it does not show anything but
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/ssh_tunnel.png" width="700" height="70">
 
-####### *!Note*: When you're done, you can hit `Ctrl + C` to close the tunnel.
+###### *!Note*: 
+
+When task is complete, you can hit `Ctrl + C` to close the tunnel.
 
 ### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
@@ -106,7 +107,7 @@ Go back to `Erdos`, copy the `token` and paste into your browser on your local c
 
 !Voila.
 
-####### *!Note*
+###### *!Note*:
 
 When you're done, remember to close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
@@ -127,7 +128,7 @@ https://www.xquartz.org/
 
 https://code.x2go.org/releases/binary-macosx/x2goclient/releases/4.1.1.0/
 
-####### *!Note*
+###### *!Note*:
 
 When you run the apps, if you receive this message:
 
