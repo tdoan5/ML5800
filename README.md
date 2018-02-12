@@ -125,11 +125,11 @@ https://www.xquartz.org/
 
 https://code.x2go.org/releases/binary-macosx/x2goclient/releases/4.1.1.0/
 
+**!Note:** 
+
 When you run the apps, if you receive this message:
 
 **" ... can't be opened because it is from an unidentified developer"**
-
-than go to **Security & Privacy settings** on your computer and choose to **"Open Anyways"**
 
 Go to `System Preferences` > Select `Security & Privacy` > Click `General` tab > Choose to `Open Anyway`
 
@@ -138,6 +138,7 @@ Go to `System Preferences` > Select `Security & Privacy` > Click `General` tab >
 Install X2GO client
 
 https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.11/
+
 
 **Use X2Go client to remote desktop connect to Erdos**
 
