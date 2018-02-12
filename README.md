@@ -127,7 +127,7 @@ https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.
 
 Enter your username and password to login Erdos
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="295" height="250">
+<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="410" height="350">
 
 If it prompts to ask to unlock keyring, enter your Erdos password again.
 
