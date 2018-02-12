@@ -56,6 +56,8 @@ Enter follow command:
 
 ![screenshot](https://github.com/tdoan5/ML5800/blob/master/port8891_snapshot.png)
 
+The port assigned on Erdos for Jupyter notebook app is the `remotePort` in next step.
+
 ### 3. On your computer:
 
 Open a new terminal on your local computer, enter the follow command:
