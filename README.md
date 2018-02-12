@@ -90,7 +90,7 @@ Enter the Erdos password. After entering password, it does not show anything but
 
 ### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
-Open a `internet browser`  in your local computer and enter into the address bar with `localPost` you chose in the step 3:
+Open an `internet browser`  in your local computer and enter into the address bar with `localPost` you chose in the step 3:
 
 ###### `localhost:localPort`
 
