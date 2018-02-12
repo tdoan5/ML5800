@@ -3,7 +3,7 @@
 The 1<sup>st</sup> connection method using *secure shell* gives the best performance when remotely access to Jupyter Notebook app on the Erdos server.
 
 The 2<sup>nd</sup> and 3<sup>rd</sup> connection methods are more simple, but you may experience severe delay or lag. The connection performances are not as 'smooth' as the 1<sup>st</sup> method's. 
-
+______
 ### I) Connection Using Secure Shell
 
 #### 1. On your computer
