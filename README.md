@@ -61,7 +61,7 @@ Enter follow command:
 
 Open a new terminal on your local computer and enter the follow command:
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_f_jpn.png" width="700" height="30">
+<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_N_L.png" width="700" height="30">
 
 with    
 
