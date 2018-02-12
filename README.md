@@ -143,7 +143,7 @@ https://mobaxterm.mobatek.net/download.html
 
 2. Run MobaXterm
 
-3. Create a new session with X11 forwarding enable (see snapshot in the first method)
+3. Create a new session with X11 forwarding enable (see instructions in the 1<sup>st</sup> method using secure shell)
 
 4. Enable X server, click to X server button near Exit button, it will turn Green
 
