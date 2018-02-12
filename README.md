@@ -69,7 +69,7 @@ with
 
 `your_account`: your Erdos username.
 
-Enter the Erdos password. After entering password, it does not show anything but the tunnel is opened successfuly, you can go to step 4. Note that if you don't use other port different from 8886 (e.g. port 8880), in step 4, you have to enter `localhost:8880` in your browswer.
+Enter the Erdos password. After entering password, it does not show anything but the tunnel is opened successfuly, you can go to step 4. Note that if you do use any port different from 8886 (e.g. port 8880) for the above `ssh` command, in step 4, you have to enter `localhost:8880` in your browswer.
 
 !Note: When you're done, you can hit `Ctrl + C' to close the tunnel.
 
