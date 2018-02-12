@@ -69,7 +69,7 @@ with
 
 `your_account`: your Erdos username.
 
-Enter the Erdos password. After entering password, it does not show anything but the tunnel is opened successfuly, you can go to step 4. 
+Enter the Erdos password. After entering password, it does not show anything but the tunnel is opened successfuly, you can go to step 4. Note that if you don't use other port different from 8886 (e.g. port 8880), in step 4, you have to enter `localhost:8880` in your browswer.
 
 !Note: When you're done, you can hit `Ctrl + C' to close the tunnel.
 
@@ -127,7 +127,7 @@ https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.
 
 Enter your username and password to login Erdos
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="590" height="500">
+<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="295" height="250">
 
 If it prompts to ask to unlock keyring, enter your Erdos password again.
 
