@@ -40,7 +40,7 @@ https://mobaxterm.mobatek.net/download.html
 
 7. Hit **OK**
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/MobaXterm_Session.PNG" width="630" height="344">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/MobaXterm_Session.PNG" width="630" height="344">
 
 ### 2. On Erdos
 
@@ -52,13 +52,13 @@ On Erdos, enter the follow command:
 * The notebook app will open with an `available port` (port 8889 is available in the below snapshot), and give you a `token` to connect to server from your browser on your local computer:
 
 
-![screenshot](https://github.com/tdoan5/ML5800/blob/master/port8889_snapshot.png)
+![screenshot](https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/port8889_snapshot.png)
 
 
 * If the `port 8889 is already in use`, the notebook app will automatically try `another available port`, in the below snapshot, it uses `port number 8891`, and also give you a `token` to connect to server.
 
 
-![screenshot](https://github.com/tdoan5/ML5800/blob/master/port8891_snapshot.png)
+![screenshot](https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/port8891_snapshot.png)
 
 The port assigned on Erdos for Jupyter notebook app is the `remotePort` in next step.
 
@@ -66,7 +66,7 @@ The port assigned on Erdos for Jupyter notebook app is the `remotePort` in next 
 
 Open a new terminal on your MacOS computer or open a new tab on MabaXterm on your Windows, enter the follow command:
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_N_L.png" width="700" height="30">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/ssh_N_L.png" width="700" height="30">
 
 with:    
 
@@ -91,7 +91,7 @@ with `username` is my Erdos username.
 
 Enter the Erdos password. After entering password, it does not show anything but the tunnel is established successfuly. DO NOT close the terminal, you can go to `step 4`. 
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/ssh_tunnel.png" width="700" height="70">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/ssh_tunnel.png" width="700" height="70">
 
 
 ### 4. Remote access from your computer to Jupyter Notebook running on Erdos
@@ -106,7 +106,7 @@ It will ask you to put the `token` to access remotely to the notebook app on Erd
 
 If you chose the `localPort` as `8880` in the step 3, you can enter `localhost:8880` into the address bar of the browser:
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/localhost_8880.png" width="600" height="220">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/localhost_8880.png" width="600" height="220">
 
 Go back to `Erdos`, copy the `token` and paste into your browser on your local computer.
 
@@ -150,15 +150,15 @@ https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.
 
 #### Use X2Go client to remote desktop connect to Erdos
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/x2go.png" width="590" height="500">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/x2go.png" width="590" height="500">
 
 Enter your username and password to login Erdos
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="410" height="350">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/x2go_login.png" width="410" height="350">
 
 If it asks to unlock the keyring, enter your Erdos password again.
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_kr.png" width="350" height="112">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/x2go_kr.png" width="350" height="112">
 
 When you login successfully, open `Terminal` and run `jupyter-notebook`.
 
@@ -196,7 +196,7 @@ https://mobaxterm.mobatek.net/download.html
 
 4. Enable X server, click to X server button near Exit button, it will turn Green
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/xserver.png" width="630" height="344">
+<img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/xserver.png" width="630" height="344">
 
 5. Once you are logged into the linux system, you can run:
 
