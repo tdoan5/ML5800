@@ -4,11 +4,11 @@ The 1<sup>st</sup> connection method using *secure shell* gives the best perform
 
 The 2<sup>nd</sup> and 3<sup>rd</sup> connection methods are more simple, but you may experience severe delay or lag. The connection performances are not as 'smooth' as the 1<sup>st</sup> method's. 
 ______
-#### I) Connection Using Secure Shell
+### I) Connection Using Secure Shell
 
-##### 1. On your computer
+#### 1. On your computer
 
-**`Mac OS X`**:
+#### Mac OS X:
 
 Open Terminal and enter:
 
@@ -17,7 +17,7 @@ Open Terminal and enter:
 Enter password to connect to the Erdos server.
 
 
-**`Windows`**:
+#### Windows:
 
 You can use any SSH client. For our class, we will use MobaXterm Home Edition (you can choose either Portable or Installer version).
 
@@ -39,7 +39,7 @@ https://mobaxterm.mobatek.net/download.html
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/MobaXterm_Session.PNG" width="630" height="344">
 
-##### 2. On Erdos
+### 2. On Erdos
 
 Enter follow command:
 
@@ -57,7 +57,7 @@ Enter follow command:
 
 ![screenshot](https://github.com/tdoan5/ML5800/blob/master/port8891_snapshot.png)
 
-##### 3. On your computer:
+### 3. On your computer:
 
 Open a new terminal on your local computer, enter the follow command:
 
@@ -76,7 +76,7 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 Option `-L` lists the port forwarding configuration (remote port to local port).
 
 
-***for example***: 
+###### *for example*: 
 
 if you pick `localPort` as `8880` on your computer, and the Jupyter Notebook app opens on Erdos with remotePort `8890`, you will enter the follow command in a new terminal on your `local computer`:
 
@@ -86,9 +86,9 @@ Enter the Erdos password. After entering password, it does not show anything but
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/ssh_tunnel.png" width="700" height="70">
 
-***!Note***: When you're done, you can hit `Ctrl + C` to close the tunnel.
+####### *!Note*: When you're done, you can hit `Ctrl + C` to close the tunnel.
 
-##### 4. Remote access from your computer to Jupyter Notebook running on Erdos
+### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
 Next step, open your `browser` in your local computer and enter into the address bar with `localPost` you chose in step 3:
 
@@ -96,7 +96,7 @@ Next step, open your `browser` in your local computer and enter into the address
 
 It will ask you to put the `token` to access remotely to the notebook app on Erdos.
 
-***for example***
+###### *for example*: 
 
 If you chose `localPort` as `8880` in step 3, you enter `localhost:8880` into the address bar of the browser like below:
 
@@ -106,7 +106,7 @@ Go back to `Erdos`, copy the `token` and paste into your browser on your local c
 
 !Voila.
 
-!Note:
+####### *!Note*
 
 When you're done, remember to close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
@@ -117,7 +117,7 @@ On your computer: `ctrl + C` to close the SSH tunnel.
 _______
 ### II) Remote Desktop Connection
 
-##### Mac OS X
+#### Mac OS X
 
 1. Install XQuartz on your Mac, which is the official X server software for Mac
 
@@ -127,7 +127,7 @@ https://www.xquartz.org/
 
 https://code.x2go.org/releases/binary-macosx/x2goclient/releases/4.1.1.0/
 
-**!Note:** 
+####### *!Note*
 
 When you run the apps, if you receive this message:
 
@@ -135,14 +135,14 @@ When you run the apps, if you receive this message:
 
 Go to `System Preferences` > Select `Security & Privacy` > Click `General` tab > Choose to `Open Anyway`
 
-##### Windows
+#### Windows
 
 Install X2GO client
 
 https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.11/
 
 
-##### Use X2Go client to remote desktop connect to Erdos
+#### Use X2Go client to remote desktop connect to Erdos
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/x2go.png" width="590" height="500">
 
@@ -159,7 +159,7 @@ Hit `logout` when you complete your task.
 _______
 ### III) Run graphical programs remotely
 
-##### Mac OS X
+#### Mac OS X
 
 1. Install XQuartz on your Mac, which is the official X server software for Mac
 
@@ -176,7 +176,7 @@ https://www.xquartz.org/
 ######         `jupyter-notebook`
 
 
-##### Windows
+#### Windows
 
 1. Install MobaXterm on your Windows
 
