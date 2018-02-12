@@ -42,6 +42,8 @@ https://mobaxterm.mobatek.net/download.html
 
 <img src="https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/MobaXterm_Session.PNG" width="630" height="344">
 
+![snapshot](https://github.com/tdoan5/ML5800/tree/master/Erdos/Snapshots/MobaXterm_Session.PNG)
+
 ### 2. On Erdos
 
 On Erdos, enter the follow command:
