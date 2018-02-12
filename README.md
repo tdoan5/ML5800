@@ -63,15 +63,17 @@ Open terminal on your computer and enter follow command:
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/ssh_f_jpn.png" width="700" height="30">
 
-then enter the Erdos password.
-
 with    
 
 `port`        : the port number you see when opening the notebook app on Erdos.
 
 `your_account`: your Erdos username.
 
-for example: if my jupyter notebook app opens on Erdos with port `8891`, I will enter on my local computer:
+Enter the Erdos password. After entering password, it does not show anything but the tunnel is opened successfuly, you can go to step 4. 
+
+!Note: When you're done, you can hit `Ctrl + C' to close the tunnel.
+
+**for example**: if my jupyter notebook app opens on Erdos with port `8891`, I will enter on my local computer:
 
 ###### `ssh -N -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
 
@@ -79,9 +81,7 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 
 Option `-L` lists the port forwarding configuration (remote port 8891 to local port 8886).
 
-It prompts you to enter Erdos password. After entering passwork, it does not show anything but the tunnel is opened successfuly, you can go to step 4. 
-
-!Note: When you're done, you can hit `Ctrl + C' to close the tunnel.
+It prompts you to enter Erdos password. 
 
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
