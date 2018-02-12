@@ -98,7 +98,7 @@ It will ask you to put the `token` to access remotely to the notebook app on Erd
 
 ##### *for example*: 
 
-If you chose `localPort` as `8880` in step 3, you enter `localhost:8880` into the address bar of the browser like below:
+If you chose the `localPort` as `8880` in the step 3, you can enter `localhost:8880` into the address bar of the browser:
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/localhost_8880.png" width="600" height="220">
 
