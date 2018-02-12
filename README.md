@@ -88,21 +88,25 @@ Enter the Erdos password. After entering password, it does not show anything but
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
-Next step, open your `browser` in your local computer and enter into address bar with `localPost` you chose in part 3:
+Next step, open your `browser` in your local computer and enter into the address bar with `localPost` you chose in step 3:
 
 ###### `localhost:localPort`
 
 It will ask you to put the `token` to access remotely to the notebook app on Erdos.
 
+**for example**
+
+If you chose `localPort` as 8880 in step 3, you enter `localhost:8880` into the address bar of the browser like below:
+
 <img src="https://github.com/tdoan5/ML5800/blob/master/localhost_8880.png" width="600" height="220">
 
-Go back to Erdos, copy the `token` and paste into your browser on your local computer.
+Go back to `Erdos`, copy the `token` and paste into your browser on your local computer.
 
 !Voila.
 
 **!Note:**
 
-When you're done, you can close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
+When you're done, remember to close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
 On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 
