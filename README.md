@@ -14,7 +14,7 @@ Open Terminal and enter:
 
 ###### `ssh your_account@erdos.dsm.fordham.edu` 
 
-Enter password to connect to the Erdos server.
+Enter password to connect to the Erdos server. If you connect succesfully, you can go to step 2.
 
 #### Windows:
 
