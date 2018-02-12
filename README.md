@@ -63,6 +63,8 @@ Open terminal on your computer and enter follow command:
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/ssh_f_jpn.png" width="700" height="30">
 
+then enter the Erdos password.
+
 with    
 
 `port`        : the port number you see when opening the notebook app on Erdos.
@@ -73,9 +75,14 @@ for example: if my jupyter notebook app opens on Erdos with port `8891`, I will 
 
 ###### `ssh -N -L localhost:8886:localhost:8891 tdoan5@erdos.dsm.fordham.edu` 
 
-Option `-N` tells SSH that no remote commands will be executed, and is useful for port forwarding. 
+Option `-N` tells SSH that no remote commands will be executed, and it is useful for port forwarding. 
 
 Option `-L` lists the port forwarding configuration (remote port 8891 to local port 8886).
+
+It prompts you to enter Erdos password. After entering passwork, it does not show anything but the tunnel is opened successfuly, you can go to step 4. 
+
+!Note: When you're done, you can hit `Ctrl + C' to close the tunnel.
+
 
 #### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
@@ -89,7 +96,7 @@ Go back to Erdos, copy the `token` and paste into your browser on your local com
 
 !Voila.
 
-#### 5. Close Jupyter Notebook app on Erdos and the SSH tunnel from your computer
+When you're done, you can close Jupyter Notebook app on Erdos and the SSH tunnel from your computer.
 
 On Erdos: `ctrl + C` 2 times to close the notebook app and all kernels.
 
@@ -117,6 +124,14 @@ https://code.x2go.org/releases/binary-win32/x2goclient/releases/4.1.0.0-2017.03.
 **Use X2Go client to remote desktop connect to Erdos**
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/x2go.png" width="590" height="500">
+
+Enter your username and password to login Erdos
+
+<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="590" height="500">
+
+If it prompts to ask to unlock keyring, enter your Erdos password again.
+
+<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_kr.png" width="590" height="500">
 
 ## III) Run graphical programs remotely
 
