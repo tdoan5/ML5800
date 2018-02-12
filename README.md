@@ -129,9 +129,9 @@ Enter your username and password to login Erdos
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/x2go_login.png" width="410" height="350">
 
-If it prompts to ask to unlock keyring, enter your Erdos password again.
+If it asks to unlock the keyring, enter your Erdos password again.
 
-<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_kr.png" width="292" height="94">
+<img src="https://github.com/tdoan5/ML5800/blob/master/x2go_kr.png" width="350" height="112">
 
 ## III) Run graphical programs remotely
 
