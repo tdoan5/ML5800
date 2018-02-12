@@ -133,6 +133,8 @@ If it asks to unlock the keyring, enter your Erdos password again.
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/x2go_kr.png" width="350" height="112">
 
+Hit `logout` when you complete your task.
+
 ## III) Run graphical programs remotely
 
 ### Mac OS X
