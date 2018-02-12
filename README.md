@@ -76,7 +76,7 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 Option `-L` lists the port forwarding configuration (remote port to local port).
 
 
-**for example**: if we choose `localPort` as `8880` on our computer, and the Jupyter Notebook app opens on Erdos with port `8890`, we will enter the follow command in a new termianl on the `local computer`:
+**for example**: if I choose `localPort` as `8880` on my computer, and the Jupyter Notebook app opens on Erdos with port `8890`, I will enter the follow command in a new terminal on my `local computer`:
 
 ###### `ssh -N -L localhost:8880:localhost:8890 username@erdos.dsm.fordham.edu` 
 
