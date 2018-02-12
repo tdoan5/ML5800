@@ -60,7 +60,7 @@ The port assigned on Erdos for Jupyter notebook app is the `remotePort` in next 
 
 ### 3. On your computer:
 
-Open a new terminal on your local computer, enter the follow command:
+Open a new terminal on your MacOS computer or open a new tab on MabaXterm on your Windows, enter the follow command:
 
 <img src="https://github.com/tdoan5/ML5800/blob/master/ssh_N_L.png" width="700" height="30">
 
@@ -90,7 +90,7 @@ Enter the Erdos password. After entering password, it does not show anything but
 
 ### 4. Remote access from your computer to Jupyter Notebook running on Erdos
 
-Next step, open your `browser` in your local computer and enter into the address bar with `localPost` you chose in step 3:
+Open your `browser` Chrome, Firefox, etc. in your local computer and enter into the address bar with `localPost` you chose in the step 3:
 
 ###### `localhost:localPort`
 
