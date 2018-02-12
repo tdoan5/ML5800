@@ -19,7 +19,7 @@ Enter password to connect to the Erdos server.
 
 **`Windows`**:
 
-You can use any SSH client. For our class, we will use MobaXterm Home Edition
+You can use any SSH client. For our class, we will use MobaXterm Home Edition (you can choose either Portable or Installer version).
 
 https://mobaxterm.mobatek.net/download.html
 
