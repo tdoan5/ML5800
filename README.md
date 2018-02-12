@@ -79,7 +79,7 @@ Option `-L` lists the port forwarding configuration (remote port to local port).
 
 #### *for example*: 
 
-if you pick `localPort` as `8880` on your `local computer`, and the Jupyter Notebook app opens on `Erdos` with `remotePort` in the step 2 is `8890`, you will enter the follow command in a new terminal on your `local computer`:
+if you pick the `localPort` is `8880` on your `local computer`, and the Jupyter Notebook app opens on `Erdos` with the `remotePort` in the step 2 is `8890`, you will enter the follow command in a new terminal on your `local computer`:
 
 ###### `ssh -N -L localhost:8880:localhost:8890 username@erdos.dsm.fordham.edu` 
 
