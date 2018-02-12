@@ -75,9 +75,9 @@ Option `-N` tells SSH that no remote commands will be executed, and it is useful
 Option `-L` lists the port forwarding configuration (remote port to local port).
 
 
-##### *for example*: 
+#### *for example*: 
 
-if you pick `localPort` as `8880` on your computer, and the Jupyter Notebook app opens on Erdos with `remotePort` in the step 2 is `8890`, you will enter the follow command in a new terminal on your `local computer`:
+if you pick `localPort` as `8880` on your `local computer`, and the Jupyter Notebook app opens on `Erdos` with `remotePort` in the step 2 is `8890`, you will enter the follow command in a new terminal on your `local computer`:
 
 ###### `ssh -N -L localhost:8880:localhost:8890 username@erdos.dsm.fordham.edu` 
 
@@ -94,7 +94,7 @@ Next step, open your `browser` in your local computer and enter into the address
 
 It will ask you to put the `token` to access remotely to the notebook app on Erdos.
 
-###### *for example*: 
+##### *for example*: 
 
 If you chose `localPort` as `8880` in step 3, you enter `localhost:8880` into the address bar of the browser like below:
 
