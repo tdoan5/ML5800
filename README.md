@@ -4,7 +4,7 @@ The 1<sup>st</sup> connection method using *secure shell* gives the best perform
 
 The 2<sup>nd</sup> and 3<sup>rd</sup> connection methods are more simple, but you may experience severe delay or lag. The connection performances are not as 'smooth' as the 1<sup>st</sup> method's.
 
-When you can open `Jupyter Notebook` succesfully, you can try to create a new Python3 notebook and run `import tensorflow`. 
+When you can succesfully remote access to `Jupyter Notebook` app running on Erdos, you can try to create a new Python3 notebook and test if `tensorflow` works by running command `import tensorflow`. 
 ______
 ### I) Connection Using Secure Shell
 
