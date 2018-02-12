@@ -40,7 +40,7 @@ https://mobaxterm.mobatek.net/download.html
 
 ### 2. On Erdos
 
-Enter follow command:
+On Erdos, enter the follow command:
 
 ###### `jupyter-notebook --no-browser --port=8889`
 
