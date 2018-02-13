@@ -31,7 +31,9 @@ This command creates a folder named `tfML5800` in your home directory, and copy 
 
 `less tflogistic.py`
 
-Hit `q` to quit.
+You can arrow keys to read the file.
+
+Hit `q` when you want to quit reading.
 
 ##### 5. Start iPython3 interactive shell:
 
