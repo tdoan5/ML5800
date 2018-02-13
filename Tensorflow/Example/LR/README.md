@@ -49,7 +49,7 @@ or
 
 `run tflogistic.ipynb`
 
-##### 7. Quit iPython3 interactive shell:
+##### 7. Quit the iPython3 interactive shell:
 
 `Ctrl+D` double times
 
@@ -57,6 +57,6 @@ or
 
 `quit`
 
-##### 8. You also can run the Python file outside of iPython interactive shell:
+##### 8. You also can run the Python file outside of the iPython interactive shell:
 
 `python3 tflogistic.py`
