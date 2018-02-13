@@ -8,7 +8,7 @@ Link
 
 `cp -r /u/erdos/csga/doan/..Pb../tf/.  ~/tfML5800/`
 
-##### 3. Go into the `tfML5800` folder that you created:
+##### 3. Go into the *tfML5800* folder that you created:
 
 `cd ~/tfML5800`
 
@@ -22,7 +22,7 @@ Hit `q` to quit.
 
 `ipython3`
 
-##### 6. Run the `tflogistic.py` or `tflogistic.ipynb`:
+##### 6. Run the *tflogistic.py* or *tflogistic.ipynb*:
 
 `run tflogistic.py`
 
@@ -30,7 +30,7 @@ or
 
 `run tflogistic.ipynb`
 
-##### 9. Quit iPython3 interactive shell:
+##### 7. Quit iPython3 interactive shell:
 
 `Ctrl+D` double times
 
@@ -38,6 +38,6 @@ or
 
 `quit`
 
-##### 6. You also can run the Python file outside of iPython interactive shell:
+##### 8. You also can run the Python file outside of iPython interactive shell:
 
 `python3 tflogistic.py`
