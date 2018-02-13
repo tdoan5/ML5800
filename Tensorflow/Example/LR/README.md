@@ -14,7 +14,7 @@ You can use any SSH clients, such as Putty or MobaXterm.
 
 Example how to use MobaXterm here: 
 
-https://github.com/tdoan5/ML5800/README.md
+https://github.com/tdoan5/ML5800/blob/master/README.md
 
 
 ##### 2. Copy all necessary files for our example:
