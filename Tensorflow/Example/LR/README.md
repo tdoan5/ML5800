@@ -21,6 +21,8 @@ https://github.com/tdoan5/ML5800
 
 `cp -r /u/erdos/csga/doan/..Pb../tf/.  ~/tfML5800/`
 
+This command creates a folder named `tfML5800` in your home directory, and copy all necessary files into it.
+
 ##### 3. Go into the *tfML5800* folder that you created:
 
 `cd ~/tfML5800`
