@@ -2,15 +2,19 @@
 
 ##### 1. Login into the Erdos server
 
-###### Max OS
+##### For Max OS users:
+
+Open Terminal and enter:
 
 `ssh username@erdos.storm.dsm.edu`
 
-###### Windows
+##### For Windows users:
 
 You can use any SSH clients, such as Putty or MobaXterm.
 
-Example how to use MobaXterm here: https://github.com/tdoan5/ML5800
+Example how to use MobaXterm here: 
+
+https://github.com/tdoan5/ML5800
 
 
 ##### 2. Copy all necessary files for our example:
