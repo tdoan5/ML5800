@@ -19,6 +19,8 @@ https://github.com/tdoan5/ML5800/blob/master/README.md
 
 ##### 2. Copy all necessary files for our example:
 
+On Erdos, run the following command,
+
 `cp -r /u/erdos/csga/doan/Public/tf/.  ~/tfML5800/`
 
 This command creates a folder named `tfML5800` in your home directory, and copy all necessary files into it.
