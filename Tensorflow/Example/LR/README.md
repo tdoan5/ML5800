@@ -18,15 +18,28 @@ Link
 
 Hit `q` to quit.
 
-6. Run the Python file:
-
-`python3 tflogistic.py`
-
-7. Or you can start iPython interactive shell by:
+7. Start iPython3 interactive shell:
 
 `ipython3`
 
 then
 
+8. Run the `tflogistic.py` or `tflogistic.ipynb`:
+
 `run tflogistic.py`
 
+or
+
+`run tflogistic.ipynb`
+
+9. Quit iPython3 interactive shell:
+
+`Ctrl+D`
+
+or 
+
+`quit()`
+
+6. Run the Python file:
+
+`python3 tflogistic.py`
