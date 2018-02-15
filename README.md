@@ -162,7 +162,7 @@ If it asks to unlock the keyring, enter your Erdos password again.
 
 When you login successfully, open `Terminal` and run `jupyter-notebook`.
 
-Click `logout` when you complete your task.
+Note: Remember to `logout` when you complete your task.
 
 _______
 ### III) Run graphical programs remotely
