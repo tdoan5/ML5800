@@ -61,6 +61,3 @@ or
 
 `python3 tflogistic.py`
 
-
-
-![snapshot](https://github.com/tdoan5/ML5800/tree/master/Tensorflow/Example/LR/LR_batch.png)
