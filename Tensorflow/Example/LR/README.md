@@ -60,3 +60,7 @@ or
 ##### 8. You also can run the Python file outside of the iPython interactive shell:
 
 `python3 tflogistic.py`
+
+
+
+![snapshot](https://github.com/tdoan5/ML5800/tree/master/Tensorflow/Example/LR/LR_batch.png)
