@@ -14,7 +14,7 @@ Most applications of SGD actually use a minibatch of several samples, for reason
 SGD works well (Not well, I suppose, but better than batch gradient descent) for error manifolds that have lots 
 of local maxima/minima. In this case, the somewhat noisier gradient calculated using the reduced number of samples 
 tends to jerk the model out of local minima into a region that hopefully is more optimal. 
-Single sample are really noisy (we can see through TensorBoard), while minibatches tend to average a little of the noise out. 
+Single sample are really noisy (we can see that through TensorBoard), while minibatches tend to average a little of the noise out. 
 Thus, the amount of jerk is reduced when using minibatches. 
 A good balance is struck when the minibatch size is small enough to avoid some of the poor local minima, 
 but large enough that it doesn't avoid the global minima or better-performing local minima. 
