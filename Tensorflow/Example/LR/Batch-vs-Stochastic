@@ -1,0 +1,32 @@
+Jason_L_Bens
+https://stats.stackexchange.com/questions/49528/batch-gradient-descent-versus-stochastic-gradient-descent
+
+The applicability of batch or stochastic gradient descent really depends on the error manifold expected.
+
+Batch gradient descent computes the gradient using the whole dataset. 
+This is great for convex, or relatively smooth error manifolds. 
+In this case, we move somewhat directly towards an optimum solution, either local or global. 
+Additionally, batch gradient descent, given an annealed learning rate, will eventually 
+find the minimum located in it's basin of attraction.
+
+Stochastic gradient descent (SGD) computes the gradient using a single sample. 
+Most applications of SGD actually use a minibatch of several samples, for reasons that will be explained a bit later. 
+SGD works well (Not well, I suppose, but better than batch gradient descent) for error manifolds that have lots 
+of local maxima/minima. In this case, the somewhat noisier gradient calculated using the reduced number of samples 
+tends to jerk the model out of local minima into a region that hopefully is more optimal. 
+Single sample are really noisy (we can see through TensorBoard), while minibatches tend to average a little of the noise out. 
+Thus, the amount of jerk is reduced when using minibatches. 
+A good balance is struck when the minibatch size is small enough to avoid some of the poor local minima, 
+but large enough that it doesn't avoid the global minima or better-performing local minima. 
+(Incidently, this assumes that the best minima have a larger and deeper basin of attraction, 
+and are therefore easier to fall into.)
+
+One benefit of SGD is that it's computationally a whole lot faster. 
+Large datasets often can't be held in RAM, which makes vectorization much less efficient. 
+Rather, each sample or batch of samples must be loaded, worked with, the results stored, and so on. 
+Minibatch SGD, on the other hand, is usually intentionally made small enough to be computationally tractable.
+
+Usually, this computational advantage is leveraged by performing many more iterations of SGD, 
+making many more steps than conventional batch gradient descent. 
+This usually results in a model that is very close to that which would be found via batch gradient descent, or better.
+
