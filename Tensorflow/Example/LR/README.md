@@ -29,35 +29,7 @@ this command creates a folder named `tfML5800` in your home directory, and copy 
 
 `cd ~/tfML5800`
 
-##### 4. Go over the Tensorflow code:
-
-`less tflogistic.py`
-
-You can arrow keys to read the file.
-
-Hit `q` when you want to quit reading.
-
-##### 5. Start iPython3 interactive shell:
+##### 4. Start iPython3 interactive shell:
 
 `ipython3`
-
-##### 6. Run the *tflogistic.py* or *tflogistic.ipynb*:
-
-`run tflogistic.py`
-
-or
-
-`run tflogistic.ipynb`
-
-##### 7. Quit the iPython3 interactive shell:
-
-`Ctrl+D` double times
-
-or 
-
-`quit`
-
-##### 8. You also can run the Python file outside of the iPython interactive shell:
-
-`python3 tflogistic.py`
 
