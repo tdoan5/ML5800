@@ -29,7 +29,27 @@ this command creates a folder named `tfML5800` in your home directory, and copy 
 
 `cd ~/tfML5800`
 
-##### 4. Start iPython3 interactive shell:
+##### 4. Next, you can run one of those following to see result:
+
+For Stochastic GD:
+
+`python3 tflogistic_SGD.py`
+
+For Batch GD:
+
+`python3 tflogistic_Batch.py`
+
+##### 5. Or you also can start iPython3 interactive shell:
 
 `ipython3`
+
+then run following commands in the iPython3 interactive shell:
+
+For Stochastic GD:
+
+`run tflogistic_SGD.py`
+
+For Batch GD:
+
+`run tflogistic_Batch.py`
 
