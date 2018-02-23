@@ -31,6 +31,8 @@ this command creates a folder named `tfML5800` in your home directory, and copy 
 
 ##### 4. Next, you can run one of those following to see result:
 
+!Note: it takes about 30-60sec to run.
+
 For Stochastic GD:
 
 `python3 tflogistic_SGD.py`
