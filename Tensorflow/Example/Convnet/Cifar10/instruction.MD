@@ -48,7 +48,7 @@ Or you want to see how the precision updates:
 
 Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
 
-`ssh -N -L 16606:localhost:6006 username@erdos.dsm.fordham.edu`
+`ssh -N -L 16006:localhost:6006 username@erdos.dsm.fordham.edu`
 
 Enter your password. 
 
