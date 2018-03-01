@@ -11,11 +11,11 @@ We can see that the total lost decreases and precision increases over training t
 
 3. Optional, if you want to see in TensorBoard how lost and precision update lively over the training time.
 
-To see `lost` in TensorBoard:
+To see lost in TensorBoard:
 
 `tensorboard --logdir /tmp/cifar10_train`
 
-To see `precision` in TensorBoard:
+To see precision in TensorBoard:
 
 `tensorboard --logdir /tmp/cifar10_eval`
 
