@@ -34,7 +34,12 @@ Or you want to see how the precision updates:
 
 `tensorboard --logdir /tmp/cifar10_eval`
 
-4. `Optional`, if you do run the step 3.
+`Note`: 
+
+To quit TensorBoard hit `Ctrl + C`.
+
+
+4. `Optional`, only if you do run the step 3.
 
 Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
 
@@ -47,3 +52,10 @@ If it doesn't show any error, the tunnel is established succesfully. If you want
 Open a browser in your computer/laptop and enter into the address bar:
 
 `localhost:16006`
+
+5. `Note`:
+
+If you want to see Tensorboad, you have to do both steps 3 and 4. 
+
+You can perform either of step 3 or 4 first, it doesn't matter.
+
