@@ -7,9 +7,9 @@ We will open 3 different terminals to login into Erdos:
 
 2. `python3 cifar10_eval.py`
 
-We can see that the `total lost decreases` and `precision increases` over training time.
+We can see that the total lost decreases and precision increases over training time.
 
-3. Optional, if you want to see in TensorBoard how `lost` and `precision` update lively over training time.
+3. Optional, if you want to see in TensorBoard how lost and precision update lively over the training time.
 
 To see `lost` in TensorBoard:
 
