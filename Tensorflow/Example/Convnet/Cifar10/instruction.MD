@@ -7,24 +7,25 @@
 
 Enter your password.
 
-2. Copy necessary files:
+2. Copy necessary files, and go to the folder containing those files:
 
 `cp `
 
-
-We will open 3 different terminals to login into Erdos:
-
-1. In the 1st terminal, run: 
+3. In the terminal, run: 
 
 `python3 cifar10_train.py`
 
-2. In the 2nd terminal, run:
+It will save checkpoint logs at `/tmp/cifar10_train`.
+
+4. In the 2nd terminal, run:
 
 `python3 cifar10_eval.py`
 
-We can see that the total lost decreases and the precision increases in 2 different terminals.
+It will save checkpoint logs at `/tmp/cifar10_eval`.
 
-3. `Optional`, if you want to see in TensorBoard how lost and precision update lively over the training time.
+We can see that the total lost decreases and the precision increases over training time in 2 different terminals.
+
+5. `Optional`, if you want to see in TensorBoard how the lost and the precision update lively over the training time.
 
 To see how the lost updates in TensorBoard, use the 3rd terminal logged into Erdos and run:
 
@@ -39,7 +40,7 @@ Or you want to see how the precision updates:
 !!! Remember to quit TensorBoard when you're done, hit `Ctrl + C`.
 
 
-4. `Optional`, only if you do run the step 3.
+6. `Optional`, only if you do run the step 3.
 
 Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
 
@@ -55,7 +56,7 @@ Next, open a browser in your computer/laptop and enter into the address bar:
 
 You will see the TensorBoard
 
-5. `Note`:
+7. `Note`:
 
 If you want to see Tensorboad, you have to do both steps 3 and 4. 
 
