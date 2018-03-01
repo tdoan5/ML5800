@@ -56,6 +56,12 @@ Next, open a browser in your computer/laptop and enter into the address bar:
 
 You will see the TensorBoard
 
+`Note:`
+
+!!! Remember to close the tunnel and release the port 16606 when you complete, hit `Ctrl + C`.
+
+Otherwise, if you run the step 6 again, it may shows error that the port is already used.
+
 7. `Note`:
 
 If you want to see Tensorboad, you have to do both steps 3 and 4. 
