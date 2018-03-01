@@ -24,7 +24,7 @@ We will open 3 different terminals to login into Erdos:
 
 We can see that the total lost decreases and the precision increases in 2 different terminals.
 
-3. Optional, if you want to see in TensorBoard how lost and precision update lively over the training time.
+3. `Optional`, if you want to see in TensorBoard how lost and precision update lively over the training time.
 
 To see how the lost updates in TensorBoard, use the 3rd terminal logged into Erdos and run:
 
@@ -34,7 +34,9 @@ Or you want to see how the precision updates:
 
 `tensorboard --logdir /tmp/cifar10_eval`
 
-4. Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
+4. `Optional`, if you do run the step 3.
+
+Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
 
 `ssh -N -L 16606:localhost:6006 username@erdos.dsm.fordham.edu`
 
