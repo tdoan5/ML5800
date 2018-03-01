@@ -40,7 +40,7 @@ Or you want to see how the precision updates:
 
 Enter your password. 
 
-If it doesn't show any arror after, the tunnel is established succesfully. If you want to close the tunnel, hit `Ctrl + C`.
+If it doesn't show any error, the tunnel is established succesfully. If you want to close the tunnel, hit `Ctrl + C`.
 
 Open a browser in your computer/laptop and enter into the address bar:
 
