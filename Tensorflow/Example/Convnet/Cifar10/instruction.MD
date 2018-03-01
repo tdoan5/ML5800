@@ -41,7 +41,7 @@ Or you want to see how the precision updates:
 
 `Note`: 
 
-!!! Remember to quit TensorBoard when you're done, hit `Ctrl + C`.
+!!! Remember if you want to quit TensorBoard, hit `Ctrl + C`.
 
 
 6. `Optional`, only if you do run the step 3.
