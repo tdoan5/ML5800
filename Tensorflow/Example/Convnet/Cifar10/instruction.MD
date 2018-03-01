@@ -36,7 +36,7 @@ Or you want to see how the precision updates:
 
 `Note`: 
 
-To quit TensorBoard hit `Ctrl + C`.
+!!! Remember to quit TensorBoard when you're done, hit `Ctrl + C`.
 
 
 4. `Optional`, only if you do run the step 3.
@@ -49,9 +49,11 @@ Enter your password.
 
 If it doesn't show any error, the tunnel is established succesfully. If you want to close the tunnel, hit `Ctrl + C`.
 
-Open a browser in your computer/laptop and enter into the address bar:
+Next, open a browser in your computer/laptop and enter into the address bar:
 
 `localhost:16006`
+
+You will see the TensorBoard
 
 5. `Note`:
 
