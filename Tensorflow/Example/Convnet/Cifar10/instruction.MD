@@ -62,7 +62,7 @@ You will see the TensorBoard
 
 `Note:`
 
-!!! Remember to close the tunnel and release the port 16606 when you complete, hit `Ctrl + C`.
+!!! Remember to close the tunnel and release the port 16006 when you complete, hit `Ctrl + C`.
 
 Otherwise, if you run the step 6 again, it may shows error that the port is already used.
 
