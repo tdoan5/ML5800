@@ -38,6 +38,10 @@ Or you want to see how the precision updates:
 
 `ssh -N -L 16606:localhost:6006 username@erdos.dsm.fordham.edu`
 
+Enter your password. 
+
+If it doesn't show any arror after, the tunnel is established succesfully. If you want to close the tunnel, hit `Ctrl + C`.
+
 Open a browser in your computer/laptop and enter into the address bar:
 
 `localhost:16006`
