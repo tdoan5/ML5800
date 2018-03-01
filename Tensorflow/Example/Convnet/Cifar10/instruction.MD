@@ -7,15 +7,23 @@
 
 Enter your password.
 
-2. Copy necessary files, and go to the folder containing those files:
+2. On Erdos, copy necessary files and go to the folder containing those files:
 
-`cp `
+`cp -r /u/erdos/csga/doan/Public/cifar10/. ~/tfconvnet/`
+
+this command creates a folder named `tfconvnet` in your home directory, and copy all necessary files into that.
+
+Go into the just-created `tfconvnet` folder:
+
+`cd ~/tfconvnet`
 
 3. In the terminal, run: 
 
 `python3 cifar10_train.py`
 
-It will save checkpoint logs at `/tmp/cifar10_train`.
+It will download cifar10 data around 165MB to `/tmp/cifar10_data` if you run it for the 1st time.
+
+It will save checkpoint logs to `/tmp/cifar10_train` when training.
 
 4. In the 2nd terminal, run:
 
