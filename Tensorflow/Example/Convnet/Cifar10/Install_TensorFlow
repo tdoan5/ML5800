@@ -1,0 +1,10 @@
+In Windows, you have to set the path to the installed Anaconda location
+
+In example, I installed anaconda3 into C:\Anaconda
+
+Therefore you need to add C:\Anaconda as well as C:\Anaconda\Scripts\ to your path variable, 
+
+e.g. set PATH=%PATH%;C:\Anaconda;C:\Anaconda\Scripts\.
+
+Hit the windows key -> enter environment -> choose from settings -> edit environment variables for your account 
+-> select Path variable -> Edit -> New.
