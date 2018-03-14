@@ -19,13 +19,13 @@ this command creates a folder named `tfconvnet` in your home directory, and copy
 
 It will read cifar10 data from my Public folder `/u/erdos/csga/doan/Public/cifar10_data`.
 
-It will save training checkpoint logs to `~/tfconvnet/cifar10_train` on your Erdos account.
+It will save training checkpoint logs to `~/cifar10_train` on your Erdos account.
 
 4. In the 2nd terminal, run:
 
 `python3 ~/tfconvnet/cifar10_eval.py`
 
-It will save checkpoint logs at `~/tfconvnet/cifar10_eval` on your Erdos account.
+It will save checkpoint logs at `~/cifar10_eval` on your Erdos account.
 
 We can see that the total lost decreases and the precision increases when training in 2 different terminals.
 
@@ -33,11 +33,11 @@ We can see that the total lost decreases and the precision increases when traini
 
 To see how the lost updates in TensorBoard, use the 3rd terminal logged into Erdos and run:
 
-`tensorboard --logdir ~/tfconvnet/cifar10_train`
+`tensorboard --logdir ~/cifar10_train`
 
 Or you want to see how the precision updates:
 
-`tensorboard --logdir ~/tfconvnet/cifar10_eval`
+`tensorboard --logdir ~/cifar10_eval`
 
 `Note`: 
 
