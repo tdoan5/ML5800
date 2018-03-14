@@ -68,7 +68,7 @@ Otherwise, if you run the step 6 again, it may shows error that the port is alre
 
 7. `Note`:
 
-If you want to see Tensorboad, you have to do both steps 3 and 4. 
+If you want to see Tensorboad, you have to do both steps 5 and 6. 
 
-You can perform either of step 3 or 4 first, it doesn't matter.
+You can perform either of step 5 or 6 first, it doesn't matter.
 
