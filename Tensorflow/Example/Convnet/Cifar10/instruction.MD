@@ -10,7 +10,7 @@
 
 3. Run file 'tb_tf_logistic_Batch.ipynb`:
 
-`python3 tb_tf_logistic_Batch.ipynb`
+`python3 ~/tfML5800/tb_tf_logistic_Batch.ipynb`
 
 
 ## Run Cifar10 TensorFlow tutorial on Erdos
