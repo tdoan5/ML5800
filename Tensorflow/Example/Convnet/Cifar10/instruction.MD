@@ -16,7 +16,7 @@
 
 `tensorboard --logdir ~/tfML5800/graphs/logreg/BatchTest`
 
-!!! Note: pay attention to the port that tensorboard is taking
+!!! Note: pay attention to the `port number` that tensorboard is taking
 
 5. See the TensorBoard:
 
