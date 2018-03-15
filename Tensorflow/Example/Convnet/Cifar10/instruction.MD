@@ -16,6 +16,8 @@
 
 `tensorboard --logdir ~/tfML5800/graphs/logreg/BatchTest`
 
+!!! Note: pay attention to the port that tensorboard is taking
+
 5. See the TensorBoard:
 
 Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
@@ -23,6 +25,10 @@ Use secure shell to see TensorBoad running on Erdos from your local computer/lap
 `ssh -N -L 16006:localhost:6006 username@erdos.dsm.fordham.edu`
 
 Enter your password. 
+
+`Port default: 6006`
+
+You should use whatever port instead of 6006 that the step 4 shows.
 
 If it doesn't show any error, the tunnel is established succesfully. If you want to close the tunnel, hit `Ctrl + C`.
 
