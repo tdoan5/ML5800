@@ -16,7 +16,7 @@
 
 `run tf_tb_logistic_Batch.ipynb`
 
-When done, hit `Ctrl + D` or `quit()` to exit.
+When done, hit `Ctrl + D` or enter `quit()` to exit.
 
 4. Run the TensorBoard:
 
