@@ -10,7 +10,7 @@
 
 3. Run file tb_tf_logistic_Batch.ipynb by entering:
 
-`ipython3 ~/tfML5800/tb_tf_logistic_Batch.ipynb`
+`ipython3 ~/tfML5800/tf_tb_logistic_Batch.ipynb`
 
 When done, hit `Ctrl + C` to exit.
 
