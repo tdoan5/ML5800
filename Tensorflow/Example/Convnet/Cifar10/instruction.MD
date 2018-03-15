@@ -8,7 +8,7 @@
 
 `cp -r /u/erdos/csga/doan/Public/tf/. ~/tfML5800/`
 
-3. Run file 'tb_tf_logistic_Batch.ipynb`:
+3. Run file `tb_tf_logistic_Batch.ipynb`:
 
 `python3 ~/tfML5800/tb_tf_logistic_Batch.ipynb`
 
