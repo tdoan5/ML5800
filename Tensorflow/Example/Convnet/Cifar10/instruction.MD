@@ -1,3 +1,17 @@
+## Use TensorBoard for Logistic Regression
+
+1. Log into Erdos:
+
+`ssh username@erdos.dsm.fordham.edu`
+
+2. Copy files on Erdos:
+
+`cp -r /u/erdos/csga/doan/Public/tf/. ~/tfML5800/`
+
+3. Run file 'tb_tf_logistic_Batch.ipynb`:
+
+`python3 tb_tf_logistic_Batch.ipynb`
+
 
 ## Run Cifar10 TensorFlow tutorial on Erdos
 
