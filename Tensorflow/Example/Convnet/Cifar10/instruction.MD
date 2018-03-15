@@ -31,11 +31,19 @@ We can see that the total lost decreases and the precision increases when traini
 
 5. `Optional`, if you want to see in TensorBoard how the lost and the precision update lively over the training time.
 
-To see how the lost updates in TensorBoard, use the 3rd terminal logged into Erdos and run:
+Open a new terminal to log into Erdos:
+
+`tensorboard --logdir "training":~/cifar10_train,"evaluation":~/cifar10_eval`
+
+If you run the example on `your own computer`, try:
+
+`tensorboard --logdir "training":/tmp/cifar10_train,"evaluation":/tmp/cifar10_eval`
+
+To see only how the lost updates when training:
 
 `tensorboard --logdir ~/cifar10_train`
 
-Or you want to see how the precision updates:
+Or you want to see only how the precision updates:
 
 `tensorboard --logdir ~/cifar10_eval`
 
