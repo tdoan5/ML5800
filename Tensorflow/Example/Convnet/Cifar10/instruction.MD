@@ -1,4 +1,4 @@
-## Use TensorBoard for Logistic Regression
+## Logistic Regression with TensorBoard
 
 1. Log into Erdos:
 
@@ -11,6 +11,26 @@
 3. Run file 'tb_tf_logistic_Batch.ipynb`:
 
 `python3 ~/tfML5800/tb_tf_logistic_Batch.ipynb`
+
+4. Run the TensorBoard:
+
+`tensorboard --logdir ~/tfML5800/graphs/logreg/BatchTest`
+
+5. See the TensorBoard:
+
+Use secure shell to see TensorBoad running on Erdos from your local computer/laptop:
+
+`ssh -N -L 16006:localhost:6006 username@erdos.dsm.fordham.edu`
+
+Enter your password. 
+
+If it doesn't show any error, the tunnel is established succesfully. If you want to close the tunnel, hit `Ctrl + C`.
+
+Next, open a browser in your computer/laptop and enter into the address bar:
+
+`localhost:16006`
+
+You will see the TensorBoard
 
 
 ## Run Cifar10 TensorFlow tutorial on Erdos
