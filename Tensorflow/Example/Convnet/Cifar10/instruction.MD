@@ -6,6 +6,10 @@
 
 2. Copy files on Erdos:
 
+This step currently doesn't work, as my Erdos account is waiting for reset.
+
+Hopefully, you copied those necessary files. If not, you can check the email that I sent on Thursday March 15 to get the file.
+
 `cp -r /u/erdos/csga/doan/Public/tf/. ~/tfML5800/`
 
 3. Run file tb_tf_logistic_Batch.ipynb by entering:
@@ -54,6 +58,10 @@ You will see the TensorBoard
 Enter your password.
 
 2. On Erdos, copy necessary files:
+
+This step currently doesn't work, as my Erdos account is waiting for reset.
+
+Hopefully, you copied those necessary files. If not, you can check the email that I sent on Thursday March 15 to get the file.
 
 `cp -r /u/erdos/csga/doan/Public/cifar10/. ~/tfconvnet/`
 
