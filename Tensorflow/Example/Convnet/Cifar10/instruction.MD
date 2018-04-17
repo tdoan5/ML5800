@@ -47,6 +47,13 @@ You will see the TensorBoard
 
 ## Run Cifar10 TensorFlow tutorial on Erdos
 
+!Note: I removed the Cifar10 dataset from my Public folder so you may not able to run this tutorial on Erdos anymore.
+
+I attached all files by email, so you can run them on your local computer or on the new MS Azure server.
+
+If anyone want to see how it perform on Erdos with new GPU, you can go to my official hour, we can run it together.
+
+
 1. Log into Erdos:
 
 `ssh username@erdos.dsm.fordham.edu`
