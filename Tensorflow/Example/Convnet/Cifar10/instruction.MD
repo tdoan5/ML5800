@@ -51,7 +51,7 @@ You will see the TensorBoard
 
 I attached all files by email, so you can run them on your local computer or on the new MS Azure server.
 
-If anyone want to see how it perform on Erdos with new GPU, you can go to my official hour, we can run it together.
+If anyone want to see how it performs on Erdos with GPU, you can go to my official hour, we can run it together.
 
 
 1. Log into Erdos:
